@@ -1,0 +1,19 @@
+.box{
+    width: 768px;
+    margin: 550px auto;
+}
+#picture{
+    width: 34px;
+    height: 34px;
+    position: fixed;
+    left:50%;
+    bottom: 30px;
+    margin-left: 580px;
+    display: none;
+    background: url("backtop.png") no-repeat left top;
+}
+#picture:hover{
+    width: 34px;
+    height: 34px;
+    background: url("backtop.png") no-repeat left -34px;
+}
